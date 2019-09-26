@@ -1,0 +1,51 @@
+{
+  "name": "avtodemo",
+  "version": "0.0.1",
+  "description": "Sale Autos",
+  "license": "MIT",
+  "scripts": {
+    "build": "ng build --prod",
+    "buildDev": "ng build",
+    "buildWatch": "ng build --watch=true",
+    "start": "ng serve",
+    "newcomponent": "ng g c components/main",
+    "routingModule": "ng generate module app-routing --flat --module=app",
+    "newproject": "ng new my-app"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "@angular-devkit/build-angular": "~0.803.5",
+    "@angular/cli": "~8.3.5",
+    "@angular/compiler-cli": "~8.2.7",
+    "@angular/language-service": "~8.2.7",
+    "@types/node": "~12.7.7",
+    "@types/jasmine": "~3.4.0",
+    "@types/jasminewd2": "~2.0.6",
+    "codelyzer": "~5.1.1",
+    "jasmine-core": "~3.5.0",
+    "jasmine-spec-reporter": "~4.2.1",
+    "karma": "~4.3.0",
+    "karma-chrome-launcher": "~3.1.0",
+    "karma-coverage-istanbul-reporter": "~2.1.0",
+    "karma-jasmine": "~2.0.1",
+    "karma-jasmine-html-reporter": "^1.4.2",
+    "protractor": "~5.4.2",
+    "ts-node": "~8.4.1",
+    "tslint": "~5.20.0",
+    "typescript": "3.4.5"
+  },
+  "dependencies": {
+    "@angular/animations": "8.2.0",
+    "@angular/common": "8.2.0",
+    "@angular/compiler": "8.2.0",
+    "@angular/core": "8.2.0",
+    "@angular/forms": "8.2.0",
+    "@angular/platform-browser": "8.2.0",
+    "@angular/platform-browser-dynamic": "8.2.0",
+    "@angular/router": "8.2.0",
+    "rxjs": "^6.5.3",
+    "zone.js": "^0.10.2",
+    "tslib": "^1.10.0",
+    "core-js": "3.2.1"
+  }
+}
