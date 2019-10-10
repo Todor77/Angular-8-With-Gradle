@@ -1,5 +1,8 @@
 HELP.md
 .gradle
+avtodemoUi/.gradle
+avtodemoUi/build
+avtodemoUi/node_modules
 build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**

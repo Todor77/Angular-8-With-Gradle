@@ -21,11 +21,15 @@ jar {
 	includeEmptyDirs = false
 }
 
-task bundle (type: YarnTask, dependsOn: [yarn_install]) {
-	args = ['run', 'build']
+task buildDev (type: YarnTask, dependsOn: [yarn_install]) {
+	args = ['run', 'buildDev']
 }
 
-task start (type: YarnTask) {
+task buildProd (type: YarnTask, dependsOn: [yarn_install]) {
+  args = ['buildProd']
+}
+
+task start (type: YarnTask, dependsOn: [yarn_install]) {
 	args = ['start']
 }
 
@@ -44,7 +48,3 @@ task newProject (type: YarnTask) {
 clean {
 	delete fileTree(dir: "avtodemoUi/build")
 }
-
-
-build.dependsOn(bundle)
-assemble.dependsOn(bundle)
