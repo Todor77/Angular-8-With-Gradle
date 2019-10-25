@@ -9,7 +9,8 @@
     "start": "ng serve",
     "newcomponent": "ng g c login",
     "routingModule": "ng generate module app-routing --flat --module=app",
-    "newproject": "ng new my-app"
+    "newproject": "ng new my-app",
+    "generateService": "ng generate service services/api"
   },
   "devDependencies": {
     "gulp": "^4.0.2",

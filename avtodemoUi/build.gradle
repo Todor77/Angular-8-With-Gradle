@@ -48,3 +48,7 @@ task newProject (type: YarnTask) {
 clean {
 	delete fileTree(dir: "avtodemoUi/build")
 }
+
+task generateService (type: YarnTask) {
+  args = ['generateService']
+}
